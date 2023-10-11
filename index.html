@@ -5,64 +5,104 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        />
-        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+        
+            <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
+            crossorigin="anonymous"/>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-        <title>Shop</title>
+            <link rel="stylesheet" href="css/styles.css" />
+
+        <title>Coffee Shop</title>
     </head>
     <body>
-        <nav
-            class="navbar navbar-expand-lg fixed-top"
-            style="background-color: #f3d4c3"
-        >
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img
-                        src="/images/bag-heart-fill.svg"
-                        alt="Lion icon"
-                        width="60"
-                        height="48"
-                    />
-                    E-Commerce
+
+        <nav class="navbar navbar-expand-lg fixed-top" 
+            style="background-color: #f3d4c3">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="/images/9-01.jpg" alt="Site icon width="50" height="50">
+                    <span class = "text-uppercase fw-lighter ms-2">coffee</span>
                 </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <button type="button" class="btn">Register</button>
-                        <button type="button" class="btn">Login</button>
-                        <button type="button" class="btn">products</button>
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class = "nav-item px-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#drinksMenu">Drinks Menu</a>
+                        </li>
+                        <li class = "nav-item px-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#login">Login</a>
+                        </li>
+                        <li class = "nav-item px-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#register">Register</a>
+                        </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right ml-auto">
-                        <a class="icon-link" href="#">
-                            <img
-                            src="/images/cart4.svg"
-                            alt="Lion icon"
-                            width="40"
-                            height="38"
-                            />
-                        </a>
-                    </ul>
+
+                    <div class= "order-lg-2 nav-btns">
+                        <button type = "button" class = "btn position-relative">
+                            <i class = "fa fa-shopping-cart"></i>
+                            <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
 
+        <header id = "header" class = "vh-100" style = "padding-top: 104px">
+            <div class = "container h-150 d-flex align-items-center">
+                <div class = "text-center text-lower">
+                    <h2 class = "text-capitalize text-white">The Best Coffee</h2>
+                    <h1 class = "text-uppercase py-2 fw-bold text-white">Seasonal Drinks</h1>
+                    <a href = "shop.html" class = "btn mt-3 text-uppercase">Shop Now</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="mt-5">
+            <div class="container-fluid p-5">
+                <section>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 gx-5 mb-4">
+                            <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
+                                data-mdb-ripple-color="light">
+                                <img
+                                    src="/images/fresh-coffee-steams-wooden-table-close-up-generative-ai.jpg"
+                                    class="img-fluid"
+                                    width="800"
+                                />
+                            </div>
+                        </div>
+                        <div class="col-md-6 gx-5 mb-4">
+                            <h4><strong>Benefits Of Drinking Coffee</strong></h4>
+                            <p class="text-black">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Facilis consequatur eligendi
+                                quisquam doloremque vero ex debitis veritatis
+                                placeat unde animi laborum sapiente illo
+                                possimus, commodi dignissimos obcaecati illum
+                                maiores corporis.
+                            </p>
+                            <h4><strong>The History Of Coffee</strong></h4>
+                            <p class="text-black">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quod itaque voluptate nesciunt
+                                laborum incidunt. Officia, quam consectetur.
+                                Earum eligendi aliquam illum alias, unde optio
+                                accusantium soluta, iusto molestiae adipisci et?
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

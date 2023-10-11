@@ -1,0 +1,41 @@
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+body {
+    font-family: var(--sm-font);
+}
+.bg-primary {
+    background-color: blueviolet !important;
+}
+
+.btn:not(.nav-btns button){
+    background-color: wheat;
+    color: brown;
+    padding: 10px 28px;
+    border-radius: 20px;
+}
+.btn:not(.nav-btns button):hover{
+    background-color: blueviolet;
+    color: white;
+}
+.navbar {
+    box-shadow: 0 3px 9px 3px black;
+}
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font)
+}
+.nav-link:hover{
+    color: blueviolet !important;
+}
+.nav-item{
+    border-bottom: 0.5px solid black;
+}
+
+#header{
+    background: url(../images/5452421.jpg) top/cover no-repeat;
+}
+.text-lower{
+    margin-top: 90px;
+}

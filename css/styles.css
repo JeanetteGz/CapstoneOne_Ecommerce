@@ -42,10 +42,13 @@ body {
 
 #section{
     background: url(../images/5452421.jpg);
+    background-size: cover;
 }
 
 .register-btn{
     background-color: rgb(235, 211, 165);
     padding: 10px 28px;
     border-radius: 20px;
+    margin-top: 20px;
 }
+

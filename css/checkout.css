@@ -13,7 +13,7 @@
     font-family: var(--lg-font)
 }
 .card.bg-primary.text-white.rounded-3 .text-white {
-    color: #0DCAF0 !important;
+    color: #43d7f4 !important;
 }
 .h-100.h-custom {
     background: url(../images/v968-46c.jpg) top/cover no-repeat;

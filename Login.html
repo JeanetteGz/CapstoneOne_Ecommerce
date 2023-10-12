@@ -18,18 +18,15 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
         <link rel="stylesheet" href="css/styles.css" />
-
         <style>
             body {
-                background-image: url('/images/4477349.jpg');
+                background-image: url("/images/4477349.jpg");
                 background-size: cover;
                 background-repeat: no-repeat;
             }
         </style>
-
         <title>Login</title>
     </head>
-
     <form action="index.html">
         <div class="container py-5 h-100">
             <div
@@ -48,7 +45,6 @@
                                 <p class="text-white-50 mb-5">
                                     Please enter your login and password!
                                 </p>
-
                                 <div class="form-outline form-white mb-4">
                                     <input
                                         type="email"
@@ -59,7 +55,6 @@
                                         >Email</label
                                     >
                                 </div>
-
                                 <div class="form-outline form-white mb-4">
                                     <input
                                         type="password"
@@ -72,7 +67,18 @@
                                         >Password</label
                                     >
                                 </div>
-
+                                <div class="form-check mb-4">
+                                    <input
+                                        type="checkbox"
+                                        class="form-check-input"
+                                        id="rememberMe"
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="rememberMe"
+                                        >Remember Me</label
+                                    >
+                                </div>
                                 <button
                                     class="btn btn-outline-light btn-lg px-5"
                                     type="submit"
@@ -80,11 +86,12 @@
                                     Login
                                 </button>
                             </div>
-
                             <div>
                                 <p class="mb-0">
                                     Don't have an account?
-                                    <a href="Registration.html" class="text-white-50 fw-bold"
+                                    <a
+                                        href="Registration.html"
+                                        class="text-white-50 fw-bold"
                                         >Sign Up</a
                                     >
                                 </p>

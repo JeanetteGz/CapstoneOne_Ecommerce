@@ -1,6 +1,7 @@
 :root {
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
 }
 .navbar {
     box-shadow: 0 3px 9px 3px black;
@@ -13,5 +14,11 @@
     border-bottom: 0.5px solid black;
 }
 body {
-    background-color: #212529;
+    background-color: #22272A;
+}
+.text-center{
+    font-family: var(--lg-font);
+}
+p{
+    font-family: var(--sm-font);
 }

@@ -1,0 +1,18 @@
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+.navbar {
+    box-shadow: 0 3px 9px 3px black;
+}
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font)
+}
+.nav-item{
+    border-bottom: 0.5px solid black;
+}
+body {
+    background-color: #212529;
+
+}

@@ -1,5 +1,43 @@
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
 @media (min-width: 1025px) {
     .h-custom {
     height: 100vh !important;
+    font-family: var(--lg-font)
     }
     }
+.card.bg-primary.text-white.rounded-3 {
+    background-color: #212627 !important;
+    font-family: var(--lg-font)
+}
+.card.bg-primary.text-white.rounded-3 .text-white {
+    color: #0DCAF0 !important;
+}
+.h-100.h-custom {
+    background: url(../images/mike-kenneally-TD4DBagg2wE-unsplash.jpg) top/cover no-repeat;;
+}
+.btn:not(.nav-btns button){
+    background-color: wheat;
+    color: brown;
+    padding: 10px 28px;
+    border-radius: 20px;
+}
+.btn:not(.nav-btns button):hover{
+    background-color: rgb(104, 56, 9);
+    color: white;
+}
+.navbar {
+    box-shadow: 0 3px 9px 3px black;
+}
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font)
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255) !important;
+}
+.nav-item{
+    border-bottom: 0.5px solid black;
+}

@@ -6,7 +6,7 @@ body {
     font-family: var(--sm-font);
 }
 .bg-primary {
-    background-color: blueviolet !important;
+    background-color: rgb(255, 0, 0) !important;
 }
 
 .btn:not(.nav-btns button){
@@ -16,7 +16,7 @@ body {
     border-radius: 20px;
 }
 .btn:not(.nav-btns button):hover{
-    background-color: blueviolet;
+    background-color: rgb(104, 56, 9);
     color: white;
 }
 .navbar {
@@ -27,7 +27,7 @@ body {
     font-family: var(--lg-font)
 }
 .nav-link:hover{
-    color: blueviolet !important;
+    color: rgb(255, 255, 255) !important;
 }
 .nav-item{
     border-bottom: 0.5px solid black;
@@ -41,7 +41,7 @@ body {
 }
 
 #section{
-    background: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background: url(../images/4477349.jpg);
     background-size: cover;
 }
 

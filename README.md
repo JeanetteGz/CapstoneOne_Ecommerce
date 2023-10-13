@@ -5,6 +5,7 @@
 <h3>About Espresso Elegance</h3>
 Espresso Elegance is a digital haven for coffee enthusiasts, not just another coffee shop. Our platform is made to provide a distinctive and practical way for you to browse, pick, and buy your preferred coffee drinks. Espresso Elegance has something extraordinary in store for everyone, regardless of experience level or level of appreciation for coffee.
 
+
 <h3>Login Page</h3>
 <img src="/images/readme_images/login.png">
 <p>The login page offers users the ability to see their past orders and keep track of future reward points.</p>

@@ -2,7 +2,7 @@
 
 <h2>Welcome to Espresso Elegance, where we've crafted a digital coffee haven for enthusiasts and aficionados. ☕</h2>
 
-About Espresso Elegance
+<h3>About Espresso Elegance</h3>
 Espresso Elegance is a digital haven for coffee enthusiasts, not just another coffee shop. Our platform is made to provide a distinctive and practical way for you to browse, pick, and buy your preferred coffee drinks. Espresso Elegance has something extraordinary in store for everyone, regardless of experience level or level of appreciation for coffee.
 
 <h3>Login Page</h3>
